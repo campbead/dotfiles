@@ -1,0 +1,12 @@
+alias ls='ls --color'
+alias c='clear'
+alias ll='ls -lah'
+alias moviebox_new="ssh pi@192.168.0.181"
+alias moviebox_old="ssh osmc@192.168.0.137"
+alias ahab="ssh adam@192.168.0.196"
+alias ahab_ts="ssh adam@ahab"
+alias moby="ssh campb@192.168.0.108"
+alias moby_ts="ssh campb@moby"
+alias env_dbt='source ~/dbt-env/bin/activate'
+alias env_ansible='source ~/.venv/ansible/bin/activate'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'

@@ -1,0 +1,18 @@
+# Host variables
+if [[ -f "/opt/homebrew/bin/brew" ]] then
+  export host_moviebox_new="pi@192.168.0.181"
+  export host_ahab="adam@192.168.0.196"
+  export host_abab_ts="adam@ahab"
+  export host_moby="campb@192.168.0.108"
+  export host_moby_ts="campb@moby"
+fi
+ 
+# Created by `pipx` on 2023-11-30 19:54:35
+export PATH="$PATH:/Users/adamc/.local/bin"
+
+# add mariadb-connector-c to path
+export PATH="/opt/homebrew/opt/mariadb-connector-c/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/mysql-client/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/mysql-client/include"
