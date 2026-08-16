@@ -1,0 +1,7 @@
+-- lua/plugins/yaml-jinja.lua
+-- disabling for time being
+--[[
+return {
+  { "pearofducks/ansible-vim", ft = { "yaml.ansible" } },
+}
+]]
