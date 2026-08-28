@@ -1,0 +1,5 @@
+[user]
+	email = campbead@gmail.com
+	name = Adam J Campbell
+[push]
+	autoSetupRemote = true
