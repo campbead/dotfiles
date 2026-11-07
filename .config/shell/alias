@@ -1,11 +1,12 @@
 alias ls='ls --color'
 alias c='clear'
 alias ll='ls -lah'
-alias moviebox_new="ssh pi@192.168.0.181"
-alias moviebox_old="ssh osmc@192.168.0.137"
-alias ahab="ssh adam@192.168.0.196"
+alias ahab='ssh adam@$AHAB_LOCAL_IP'
+alias moviebox_new='ssh pi@$MOVIEBOX_NEW_LOCAL_IP'
+alias moviebox_old='ssh osmc@$MOVIEBOX_OLD_LOCAL_IP'
+
 alias ahab_ts="ssh adam@ahab"
-alias moby="ssh campb@192.168.0.108"
+alias moby="ssh campb@$MOBY_LOCAL_IP"
 alias moby_ts="ssh campb@moby"
 alias env_dbt='source ~/dbt-env/bin/activate'
 alias env_ansible='source ~/.venv/ansible/bin/activate'

@@ -1,4 +1,9 @@
 # Host variables
+export AHAB_LOCAL_IP=192.168.0.196
+export MOVIEBOX_NEW_LOCAL_IP=192.168.0.181
+export MOVIEBOX_OLD_LOCAL_IP=192.168.0.137
+export MOBY_LOCAL_IP="192.168.0.108"
+
 if [[ -f "/opt/homebrew/bin/brew" ]] then
   export host_moviebox_new="pi@192.168.0.181"
   export host_ahab="adam@192.168.0.196"
@@ -6,7 +11,7 @@ if [[ -f "/opt/homebrew/bin/brew" ]] then
   export host_moby="campb@192.168.0.108"
   export host_moby_ts="campb@moby"
 fi
- 
+
 # Created by `pipx` on 2023-11-30 19:54:35
 export PATH="$PATH:/Users/adamc/.local/bin"
 
