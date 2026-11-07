@@ -1,7 +1,7 @@
 #!/bin/sh
 # for environment variables to be set before .zshrc gets sourced
 
-export EDITOR="nvim"
+export EDITOR="vim"
 export TERM="xterm-ghostty"
 export TERMINAL="xterm-ghostty"
 
